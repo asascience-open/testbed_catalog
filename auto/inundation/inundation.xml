@@ -35,22 +35,22 @@
  </service>
  
 
-<service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.nowave.2d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_usf_fvcom_ike_ultralite_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.wave.2d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_usf_fvcom_ike_ultralite_vardrag_wave_2d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.nowave.3d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_usf_fvcom_ike_ultralite_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.wave.3d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_usf_fvcom_ike_ultralite_vardrag_wave_3d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.nowave.2d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_usf_fvcom_rita_ultralite_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.wave.2d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_usf_fvcom_rita_ultralite_vardrag_wave_2d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.nowave.3d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_usf_fvcom_rita_ultralite_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.wave.3d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_usf_fvcom_rita_ultralite_vardrag_wave_3d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.wave.2d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_und_adcirc_ike_ultralite_lr_vardrag_wave_2d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.wave.3d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_und_adcirc_ike_ultralite_lr_vardrag_wave_3d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.nowave.2d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_und_adcirc_ike_ultralite_lr_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.nowave.3d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_und_adcirc_ike_ultralite_lr_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.wave.2d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_und_adcirc_rita_ultralite_lr_vardrag_wave_2d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.wave.3d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_und_adcirc_rita_ultralite_lr_vardrag_wave_3d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.nowave.2d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_und_adcirc_rita_ultralite_lr_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.nowave.3d" base="http://ec2-107-21-136-52.compute-1.amazonaws.com:8080/wms/in_und_adcirc_rita_ultralite_lr_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.nowave.2d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_ike_ultralite_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.wave.2d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_ike_ultralite_vardrag_wave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_ike_ultralite_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.wave.3d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_ike_ultralite_vardrag_wave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.nowave.2d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_rita_ultralite_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.wave.2d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_rita_ultralite_vardrag_wave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_rita_ultralite_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.wave.3d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_rita_ultralite_vardrag_wave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.wave.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_ike_ultralite_lr_vardrag_wave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.wave.3d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_ike_ultralite_lr_vardrag_wave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.nowave.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_ike_ultralite_lr_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_ike_ultralite_lr_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.wave.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_rita_ultralite_lr_vardrag_wave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.wave.3d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_rita_ultralite_lr_vardrag_wave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.nowave.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_rita_ultralite_lr_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_rita_ultralite_lr_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
 
 <dataset name="Inundation">
        <datasetScan name="Inundation Observations" path="inundation/observations" location="/data/ftp/upload/Inundation/observations/tropical/netcdf">
