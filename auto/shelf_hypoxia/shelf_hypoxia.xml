@@ -1,0 +1,246 @@
+<!--shn catalog header -->
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd"
+ xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+ xmlns:xlink="http://www.w3.org/1999/xlink" name="NOAA IOOS Testbed THREDDS Server">
+ 
+ <service name="all" base="" serviceType="compound">
+  <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+  <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+  <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
+  <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/"/>
+  <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+  <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+ </service>
+ 
+ <service name="agg" base="" serviceType="compound">
+  <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+  <service name="wcs" serviceType="WCS" base="/thredds/wcs/"/>
+  <service name="wms" serviceType="WMS" base="/thredds/wms/"/>
+  <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/"/>
+  <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+  <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+ </service>
+ 
+ <service name="points" base="" serviceType="compound">
+  <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/"/>
+  <service name="ncml" serviceType="NCML" base="/thredds/ncml/"/>
+  <service name="uddc" serviceType="UDDC" base="/thredds/uddc/"/>
+  <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+  <service name="sos" serviceType="SOS" base="/thredds/sos/"/>
+ </service> 
+  
+<dataset name="Shelf Hypoxia">
+<dataset name="ROMS (DAL) - B_clm_001" ID="sh.dal.roms.b_clm_001agg" urlPath="auto/sh.dal.roms.b_clm_001agg">
+ <serviceName>agg</serviceName>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+     <attribute name="institution" value="dal -, Shelf Hypoxia" />
+
+    <attribute name="wms-link" value="http://testbedapps.sura.org/ncWMS/wms"/>
+    <attribute name="wms-layer-prefix" value="katja_roms"/>
+    <attribute name="title" value="ROMS (DAL) - ROMS-3.0"/>
+    <attribute name="id" value="sh.dal.roms.b_clm_001"/>
+    <attribute name="naming_authority" value="noaa.ioos.testbed"/>
+    <attribute name="summary" value=""/>
+    <attribute name="creator_name" value="Katja Fennel"/>
+    <attribute name="creator_email" value="Katja.Fennel@dal.ca"/>
+    <attribute name="creator_url" value="http://www.dal.ca/"/>
+    <attribute name="cdm_data_type" value="Grid"/>
+    <attribute name="institution" value="Dalhousie Univeristy, shelf hypoxia" />
+
+    <variable name="temp">
+     <attribute name="wms-layer" value="katja_roms/temp"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name" value="sea_water_temperature"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="salt">
+     <attribute name="wms-layer" value="katja_roms/salt"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name" value="sea_water_salinity"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="NO3">
+     <attribute name="wms-layer" value="katja_roms/NO3"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name" value="mole_concentration_of_nitrate_in_sea_water"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="NH4">
+     <attribute name="wms-layer" value="katja_roms/NH4"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name" value="mole_concentration_of_ammonium_in_sea_water"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="chlorophyll">
+     <attribute name="wms-layer" value="katja_roms/chlorophyll"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name" value="mass_concentration_of_chlorophyll_in_sea_water"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="phytoplankton">
+     <attribute name="wms-layer" value="katja_roms/phytoplankton"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name"
+      value="mole_concentration_of_phytoplankton_expressed_as_nitrogen_in_sea_water"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="zooplankton">
+     <attribute name="wms-layer" value="katja_roms/zooplankton"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name"
+      value="mole_concentration_of_zooplankton_expressed_as_nitrogen_in_sea_water"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="SdetritusN">
+     <attribute name="wms-layer" value="katja_roms/SdetritusN"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name"
+      value="mole_concentration_of_organic_detritus_expressed_as_nitrogen_in_sea_water_with_small_fraction"
+     />
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="oxygen">
+     <attribute name="wms-layer" value="katja_roms/oxygen"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name"
+      value="mole_concentration_of_dissolved_molecular_oxygen_in_sea_water"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="LdetritusN">
+     <attribute name="wms-layer" value="katja_roms/LdetritusN"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name"
+      value="mole_concentration_of_organic_detritus_expressed_as_nitrogen_in_sea_water_with_large_fraction"
+     />
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+
+    <aggregation dimName="ocean_time" type="joinExisting" timeUnitsChange="true">
+     <scan location="/data/ftp/upload/Shelf_Hypoxia/dal/roms/b_clm_001/" suffix=".nc"
+      subdirs="false"/>
+    </aggregation>
+   </netcdf>
+
+</dataset>
+<dataset name="ROMS (DAL) - Run_053" ID="sh.dal.roms.run_053agg" urlPath="auto/sh.dal.roms.run_053agg">
+ <serviceName>agg</serviceName>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+     <attribute name="institution" value="dal -, Shelf Hypoxia" />
+
+    <attribute name="wms-link" value="http://testbedapps.sura.org/ncWMS/wms"/>
+    <attribute name="wms-layer-prefix" value="katja_roms"/>
+    <attribute name="title" value="ROMS (DAL) - ROMS-3.0"/>
+    <attribute name="id" value="sh.dal.roms.b_clm_001"/>
+    <attribute name="naming_authority" value="noaa.ioos.testbed"/>
+    <attribute name="summary" value=""/>
+    <attribute name="creator_name" value="Katja Fennel"/>
+    <attribute name="creator_email" value="Katja.Fennel@dal.ca"/>
+    <attribute name="creator_url" value="http://www.dal.ca/"/>
+    <attribute name="cdm_data_type" value="Grid"/>
+    <attribute name="institution" value="Dalhousie Univeristy, shelf hypoxia" />
+
+    <variable name="temp">
+     <attribute name="wms-layer" value="katja_roms/temp"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name" value="sea_water_temperature"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="salt">
+     <attribute name="wms-layer" value="katja_roms/salt"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name" value="sea_water_salinity"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="NO3">
+     <attribute name="wms-layer" value="katja_roms/NO3"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name" value="mole_concentration_of_nitrate_in_sea_water"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="NH4">
+     <attribute name="wms-layer" value="katja_roms/NH4"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name" value="mole_concentration_of_ammonium_in_sea_water"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="chlorophyll">
+     <attribute name="wms-layer" value="katja_roms/chlorophyll"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name" value="mass_concentration_of_chlorophyll_in_sea_water"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="phytoplankton">
+     <attribute name="wms-layer" value="katja_roms/phytoplankton"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name"
+      value="mole_concentration_of_phytoplankton_expressed_as_nitrogen_in_sea_water"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="zooplankton">
+     <attribute name="wms-layer" value="katja_roms/zooplankton"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name"
+      value="mole_concentration_of_zooplankton_expressed_as_nitrogen_in_sea_water"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="SdetritusN">
+     <attribute name="wms-layer" value="katja_roms/SdetritusN"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name"
+      value="mole_concentration_of_organic_detritus_expressed_as_nitrogen_in_sea_water_with_small_fraction"
+     />
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="oxygen">
+     <attribute name="wms-layer" value="katja_roms/oxygen"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name"
+      value="mole_concentration_of_dissolved_molecular_oxygen_in_sea_water"/>
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+    <variable name="LdetritusN">
+     <attribute name="wms-layer" value="katja_roms/LdetritusN"/>
+     <attribute name="missing_value" type="float" value="0.0"/>
+     <attribute name="standard_name"
+      value="mole_concentration_of_organic_detritus_expressed_as_nitrogen_in_sea_water_with_large_fraction"
+     />
+    <attribute name="coverage_content_type" value="modelResult"/>
+    </variable>
+
+    <aggregation dimName="ocean_time" type="joinExisting" timeUnitsChange="true">
+     <scan location="/data/ftp/upload/Shelf_Hypoxia/dal/roms/run_053/" suffix=".nc"
+      subdirs="false"/>
+    </aggregation>
+   </netcdf>
+
+</dataset>
+<!-- sh catalog footer-->
+
+</dataset>
+
+<dataset name="Observations">
+ <!--<datasetScan name="NOAA NOS" path="inundation/observations/noaa_nos"
+  location="/data/ftp/upload/Inundation/observations/tropical/netcdf/Ike/NOAA/">
+  <serviceName>points</serviceName>
+  <filter>
+   <include wildcard="*.nc"/>
+  </filter>
+  <addDatasetSize/>
+ </datasetScan>
+</dataset>
+-->
+<!--<dataset name="Inundation Observation NCML Test Dataset" ID="vimsselfe-obsncml"
+ urlPath="inundation/observations/vims-obs.nc">
+ <serviceName>all</serviceName>
+ <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2"
+  location="/data/ftp/upload/Inundation/Observations/netcdf/VIMS_Selfe_2Dtide_predictions.nc">
+  <attribute name="erddap-link"
+   value="http://testbedapps.sura.org/erddap/tabledap/VIMS_tideModelResults_MSL.das"/>
+ </netcdf>
+-->
+</dataset>
+
+ </catalog>
