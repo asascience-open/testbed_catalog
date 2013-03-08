@@ -1,0 +1,42 @@
+
+  <datasetScan name="Imeds Simulation Station Output" ID="imeds/inundation/simulation" path="imeds/simulation" location="/data/ftp/upload/Inundation/ASA/simulation/">
+    <filter> 
+      <include wildcard="*.nc" />
+    </filter>
+    <serviceName>points</serviceName>
+    <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+ 
+     <attribute name="id" value="in.all.simulation"/>
+     <attribute name="cdm_data_type" value="any"/>
+     <attribute name="theme" value="inundation"/>
+     <attribute name="project" value="inundation"/>
+     <attribute name="institution" value="Sura Super-regional Testbed, inundation" />
+     <variable name="watlev">
+      <attribute name="standard_name" value="sea_surface_height"/>
+      <attribute name="coverage_content_type" value="modelResult"/>
+      
+     </variable>
+
+      </netcdf>
+  </datasetScan>
+
+  <datasetScan name="Imeds Observation Station Mesurements" ID="imeds/inundation/measurement" path="imeds/measurement" location="/data/ftp/upload/Inundation/ASA/measurement/">
+    <filter> 
+      <include wildcard="*.nc" />
+    </filter>
+    <serviceName>points</serviceName>
+ <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+     <attribute name="institution" value="Sura Super-regional Testbed, inundation" />
+     <attribute name="id" value="in.all.measurement"/>
+     <attribute name="cdm_data_type" value="any"/>
+<attribute name="theme" value="inundation"/>
+     <attribute name="project" value="inundation"/>
+     <variable name="watlev">
+      <attribute name="standard_name" value="sea_surface_height"/>
+      <attribute name="coverage_content_type" value="physicalMeasurement"/>
+     </variable>ss
+
+
+      </netcdf>
+  </datasetScan>
+

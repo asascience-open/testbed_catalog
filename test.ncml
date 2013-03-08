@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" 
+location="dods://megara.tamu.edu:8080/thredds/dodsC/gcoos/hypoxia">
+<variable name="zeta">
+      <attribute name="coverage_content_type" value="modelResult"/>
+</variable>
+<variable name="zeta">
+      <attribute name="coverage_content_type" value="modelResult"/>
+</variable>
+<variable name="ubar">
+      <attribute name="coverage_content_type" value="modelResult"/>
+</variable>
+<variable name="vbar">
+      <attribute name="coverage_content_type" value="modelResult"/>
+</variable>
+<variable name="u">
+      <attribute name="coverage_content_type" value="modelResult"/>
+</variable>
+<variable name="v">
+      <attribute name="coverage_content_type" value="modelResult"/>
+</variable>
+<variable name="w">
+      <attribute name="coverage_content_type" value="modelResult"/>
+</variable>
+<variable name="temp">
+      <attribute name="coverage_content_type" value="modelResult"/>
+</variable>
+<variable name="salt">
+      <attribute name="coverage_content_type" value="modelResult"/>
+</variable>
+<variable name="rho">
+      <attribute name="coverage_content_type" value="modelResult"/>
+</variable>
+</netcdf>
