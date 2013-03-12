@@ -59,7 +59,12 @@
 
 		<dataset name="SLOSH - Hurricane Ike - egm3 - SLOSH Wind - No waves - 2D" ID="in.mdl.slosh.ike.egm3.slosh_wind.nowave.2d" urlPath="in/mdl/slosh/ike/egm3/slosh_wind/nowave/2d">
 			<serviceName>all</serviceName>
-			<netcdf location="/data/testbed/inundation/tropical/MDL_SLOSH/Hurricane_Ike_final_run_egm3/00_dir.ncml" />
+			<ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/testbed/inundation/tropical/MDL_SLOSH/Hurricane_Ike_final_run_egm3/00_dir.ncml">
+				<ns0:attribute name="id" value="in.mdl.slosh.ike.egm3.slosh_wind.nowave.2d" />
+                                <ns0:attribute name="cdm_data_type" value="grid" />
+                                <ns0:attribute name="title" value="SLOSH - Hurricane Ike - egm3 - SLOSH Wind - No waves - 2D" />
+                                <ns0:attribute name="institution" value="MDL - NOAA/NWS/MDL, inundation" />	
+			</ns0:netcdf>
 		</dataset>
 
 		<dataset name="Observations">
