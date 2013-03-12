@@ -35,6 +35,28 @@
  
 	<dataset name="Inundation">
 
+		<dataset name="SLOSH - IKE - Gulf of Mexico - Slosh Wind - No Waves - 2D" ID="in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d" urlPath="in/mdl/slosh/ike/gulf_of_mexico/slosh_wind/nowave/2d">
+			<serviceName>all</serviceName>
+			<ns0:netcdf xmlns:ns0="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/testbed/inundation/tropical/MDL_SLOSH/Hurricane_Ike_final_run_egm3/Output/ike_egm3.spatial.nc">
+				<ns0:attribute name="id" value="in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d" />
+				<ns0:attribute name="cdm_data_type" value="grid" />
+				<ns0:attribute name="title" value="SLOSH - IKE - Gulf of Mexico - Slosh Wind - No Waves - 2D" />
+				<ns0:attribute name="institution" value="MDL - NOAA/NWS/MDL, inundation" />
+				<ns0:variable name="eta">
+					<ns0:attribute name="coverage_content_type" value="modelResult" />
+				</ns0:variable>
+				<ns0:variable name="etamax">
+					<ns0:attribute name="coverage_content_type" value="modelResult" />
+				</ns0:variable>
+				<ns0:variable name="u">
+					<ns0:attribute name="coverage_content_type" value="modelResult" />
+				</ns0:variable>
+				<ns0:variable name="v">
+					<ns0:attribute name="coverage_content_type" value="modelResult" />
+				</ns0:variable>
+			</ns0:netcdf>
+		</dataset>
+
 		<dataset name="SLOSH - Hurricane Ike - egm3 - SLOSH Wind - No waves - 2D" ID="in.mdl.slosh.ike.egm3.slosh_wind.nowave.2d" urlPath="in/mdl/slosh/ike/egm3/slosh_wind/nowave/2d">
 			<serviceName>all</serviceName>
 			<netcdf location="/data/testbed/inundation/tropical/MDL_SLOSH/Hurricane_Ike_final_run_egm3/00_dir.ncml" />
