@@ -1687,7 +1687,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <aggregation type="union">
-  <netcdf location="/data/ftp/upload/Inundation/und/adcirc_tropical/runs/Ike.ULLR3D.wva/adcirc_swan.nc"/>
+  <netcdf location="/data1/FINAL/inundation/tropical/UND_ADCIRC/Hurricane_Ike_3D_final_run_with_waves/00_dir.ncml"/>
  </aggregation>
 <attribute name="title" value="ADCIRC - IKE - Ultralite_LR - Variable Drag - Waves - 3D"/><attribute name="id" value="in.und.adcirc.ike.ultralite.lr.vardrag.wave.3d"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="any"/><variable name="zeta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v-vel"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u-vel"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="pressure"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="windx"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="windy"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="maxele"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="dir"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="hs"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="tmm10"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="tps"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
@@ -1699,7 +1699,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <aggregation type="union">
-  <netcdf location="/data/ftp/upload/Inundation/und/adcirc_tropical/runs/Ike.ULLR2D.ha.e4/adcirc.nc"/>
+  <netcdf location="/data1/FINAL/inundation/tropical/UND_ADCIRC/Hurricane_Ike_2D_final_run_without_waves/00_dir.ncml"/>
  </aggregation>
 <attribute name="title" value="ADCIRC - IKE - Ultralite_LR - Variable Drag - No Waves - 2D"/><attribute name="id" value="in.und.adcirc.ike.ultralite.lr.vardrag.nowave.2d"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="any"/><variable name="zeta"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
@@ -1711,7 +1711,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <aggregation type="union">
-  <netcdf location="/data/ftp/upload/Inundation/und/adcirc_tropical/runs/Ike.ULLR3D.ha/adcirc.nc"/>
+  <netcdf location="/data1/FINAL/inundation/tropical/UND_ADCIRC/Hurricane_Ike_3D_final_run_without_waves/00_dir.ncml"/>
  </aggregation>
 <attribute name="title" value="ADCIRC - IKE - Ultralite_LR - Variable Drag - No Waves - 3D"/><attribute name="id" value="in.und.adcirc.ike.ultralite.lr.vardrag.nowave.3d"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="any"/><variable name="zeta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v-vel"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u-vel"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="pressure"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="windx"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="windy"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="maxele"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
