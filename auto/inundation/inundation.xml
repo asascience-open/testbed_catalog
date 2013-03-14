@@ -1728,7 +1728,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
  </aggregation>
 <attribute name="title" value="ADCIRC - RITA - Ultralite_LR - Variable Drag - Waves - 2D"/><attribute name="id" value="in.und.adcirc.rita.ultralite.lr.vardrag.wave.2d"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="any"/><variable name="zeta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v-vel"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u-vel"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="pressure"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="windx"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="windy"><attribute name="coverage_content_type" value="modelResult"/></netcdf>
 </dataset>-->
-<!--
+
 <dataset name="ADCIRC - RITA - Ultralite_LR - Variable Drag - Waves - 3D" ID="in.und.adcirc.rita.ultralite.lr.vardrag.wave.3d" urlPath="auto/in.und.adcirc.rita.ultralite.lr.vardrag.wave.3d">
  <access serviceName="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.wave.3d" urlPath=""/>
  <access serviceName="agg" urlPath="auto/in.und.adcirc.rita.ultralite.lr.vardrag.wave.3d"/>
@@ -1740,7 +1740,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 <attribute name="title" value="ADCIRC - RITA - Ultralite_LR - Variable Drag - Waves - 3D"/><attribute name="id" value="in.und.adcirc.rita.ultralite.lr.vardrag.wave.3d"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="any"/><variable name="zeta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v-vel"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u-vel"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="pressure"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="windx"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="windy"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
 </dataset>
--->
+
 <!--
 <dataset name="ADCIRC - RITA - Ultralite_LR - Variable Drag - No Waves - 2D" ID="in.und.adcirc.rita.ultralite.lr.vardrag.nowave.2d" urlPath="auto/in.und.adcirc.rita.ultralite.lr.vardrag.nowave.2d">
  <access serviceName="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.nowave.2d" urlPath=""/>
