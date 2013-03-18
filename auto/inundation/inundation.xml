@@ -1841,7 +1841,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
  <attribute name="Conventions" value="CF-1.0"/>
  <attribute name="Source" value="SLOSH"/>
  <aggregation type="union">
-  <netcdf location="/data/ftp/upload/Inundation/und/slosh_tropical/runs/Rita.ebp3.OWI.tidal.nc"/>
+  <netcdf location="/data1/FINAL/inundation/tropical/UND_SLOSH/Hurricane_Rita_final_run_ebp3/00_dir.ncml"/><!--/data/ftp/upload/Inundation/und/slosh_tropical/runs/Rita.ebp3.OWI.tidal.nc"/>-->
  </aggregation>
 <attribute name="title" value="SLOSH - RITA - ebp3 - t - OWI"/><attribute name="id" value="in.und.slosh.rita.ebp3.t.owi"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
@@ -1866,7 +1866,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
  <attribute name="Conventions" value="CF-1.0"/>
  <attribute name="Source" value="SLOSH"/>
  <aggregation type="union">
-  <netcdf location="/data/ftp/upload/Inundation/und/slosh_tropical/runs/Ike.egl3.swi/Ike-egl3.spatial.tidal.SWI.nc"/>
+  <netcdf location="/data1/FINAL/inundation/tropical/UND_SLOSH/Hurricane_Rita_final_run_egm3/00_dir.ncml"/>
  </aggregation>
 <attribute name="title" value="SLOSH - RITA - egm3 - t - OWI"/><attribute name="id" value="in.und.slosh.rita.egm3.t.owi"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
@@ -1891,7 +1891,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
  <attribute name="Conventions" value="CF-1.0"/>
  <attribute name="Source" value="SLOSH"/>
  <aggregation type="union">
-  <netcdf location="/data/ftp/upload/Inundation/und/slosh_tropical/runs/Ike.egl3.OWI.nc"/>
+  <netcdf location="/data1/FINAL/inundation/tropical/UND_SLOSH/Hurricane_Ike_final_run_egl3/00_dir.ncml"/>
  </aggregation>
 <attribute name="title" value="SLOSH - IKE - egl3 -&#xA0;OWI"/><attribute name="id" value="in.und.slosh.ike.egl3.owi"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
@@ -1909,64 +1909,6 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 
 </dataset>-->
-<dataset name="SLOSH - IKE - emg3 - OWI" ID="in.und.slosh.ike.egm3.owi" urlPath="auto/in.und.slosh.ike.egm3.owi">
- <serviceName>agg</serviceName>
-<netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <attribute name="Conventions" value="CF-1.0"/>
- <attribute name="Source" value="SLOSH"/>
- <aggregation type="union">
-  <netcdf location="/data/ftp/upload/Inundation/und/slosh_tropical/runs/Ike.egm3.OWI.nc"/>
- </aggregation>
-<attribute name="title" value="SLOSH - IKE - emg3 -&#xA0;OWI"/><attribute name="id" value="in.und.slosh.ike.egm3.owi"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
-
-
-</dataset><!--
-<dataset name="SLOSH - RITA - ebp3 - SWI" ID="in.und.slosh.rita.ebp3.swi" urlPath="auto/in.und.slosh.rita.ebp3.swi">
- <serviceName>agg</serviceName>
-<netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <attribute name="Conventions" value="CF-1.0"/>
- <attribute name="Source" value="SLOSH"/>
- <aggregation type="union">
-  <netcdf location="/data/ftp/upload/Inundation/und/slosh_tropical/runs/Rita.ebp3.SWI.nc"/>
- </aggregation>
-<attribute name="title" value="SLOSH - RITA - ebp3 -&#xA0;SWI"/><attribute name="id" value="in.und.slosh.rita.ebp3.swi"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="z"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="etamax"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
-
-
-</dataset>-->
-<dataset name="SLOSH - RITA - ebp3 - OWI" ID="in.und.slosh.rita.ebp3.owi" urlPath="auto/in.und.slosh.rita.ebp3.owi">
- <serviceName>agg</serviceName>
-<netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <attribute name="Conventions" value="CF-1.0"/>
- <attribute name="Source" value="SLOSH"/>
- <aggregation type="union">
-  <netcdf location="/data/ftp/upload/Inundation/und/slosh_tropical/runs/Rita.ebp3.OWI.nc"/>
- </aggregation>
-<attribute name="title" value="SLOSH - RITA - ebp3 -&#xA0;OWI"/><attribute name="id" value="in.und.slosh.rita.ebp3.owi"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
-
-
-</dataset><!--
-<dataset name="SLOSH - RITA - egm3 - SWI" ID="in.und.slosh.rita.egm3.swi" urlPath="auto/in.und.slosh.rita.egm3.swi">
- <serviceName>agg</serviceName>
-<netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <attribute name="Conventions" value="CF-1.0"/>
- <attribute name="Source" value="SLOSH"/>
- <aggregation type="union">
-  <netcdf location="/data/ftp/upload/Inundation/und/slosh_tropical/runs/Rita.egm3.SWI.nc"/>
- </aggregation>
-<attribute name="title" value="SLOSH - RITA - egm3 -&#xA0;SWI"/><attribute name="id" value="in.und.slosh.rita.egm3.swi"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="z"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="etamax"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
-
-
-</dataset>-->
-<dataset name="SLOSH - RITA - egm3 - OWI" ID="in.und.slosh.rita.egm3.owi" urlPath="auto/in.und.slosh.rita.egm3.owi">
- <serviceName>agg</serviceName>
-<netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
- <attribute name="Conventions" value="CF-1.0"/>
- <attribute name="Source" value="SLOSH"/>
- <aggregation type="union">
-  <netcdf location="/data/ftp/upload/Inundation/und/slosh_tropical/runs/Rita.egm3.OWI.nc"/>
- </aggregation>
-<attribute name="title" value="SLOSH - RITA - egm3 -&#xA0;OWI"/><attribute name="id" value="in.und.slosh.rita.egm3.owi"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
-</dataset>
 
 <dataset name="FVCOM - 2005 - No Waves - 3D" ID="in.umass.fvcom.2005.nowaves.3d" urlPath="auto/in.umass.fvcom.2005.nowaves.3d">
  <serviceName>agg</serviceName>
