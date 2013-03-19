@@ -66,6 +66,15 @@
 <service name="ncwms_in.und.slosh.ike.egm3.t.owi" base="http://wms.testbed.sura.org/wms/in_und_slosh_ike_egm3_t_owi/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.und.slosh.ike.egl3.t.owi" base="http://wms.testbed.sura.org/wms/in_und_slosh_ike_egl3_t_owi/" serviceType="WMS" suffix="" />
 
+<!--SELFE-->
+<service name="ncwms_in.vims.selfe.ike.ultralite.vardrag.wave.2d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_ike_ultralite_vardrag_wave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.ike.ultralite.vardrag.wave.3d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_ike_ultralite_vardrag_wave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.ike.ultralite.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_ike_ultralite_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.ike.ultralite.vardrag.nowave.2d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_ike_ultralite_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.rita.ultralite.vardrag.wave.2d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_rita_ultralite_vardrag_wave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.rita.ultralite.vardrag.wave.3d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_rita_ultralite_vardrag_wave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.rita.ultralite.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_rita_ultralite_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.rita.ultralite.vardrag.nowave.2d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_rita_ultralite_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
 
 
 
@@ -280,7 +289,7 @@
 <dataset name="FVCOM - IKE - Ultralite - Variable Drag - No Waves - 3D" ID="in.usf.fvcom.ike.ultralite.vardrag.nowave.3d" urlPath="auto/in.usf.fvcom.ike.ultralite.vardrag.nowave.3d">
  <access serviceName="ncwms_in.usf.fvcom.ike.ultralite.vardrag.nowave.3d" urlPath=""/>
  <access serviceName="agg" urlPath="auto/in.usf.fvcom.ike.ultralite.vardrag.nowave.3d"/>
-<netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd" location="/data/ftp/upload/Inundation/usf/fvcom_tropical/runs/Ike/3D_varied_roughness_windstress/GLOBAL_USFFVCOM_IKE3DNOWAVE.nc">
+<netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd" location="/data/ftp/upload/Inundation/usf/fvcom _tropical/runs/Ike/3D_varied_roughness_windstress/GLOBAL_USFFVCOM_IKE3DNOWAVE.nc">
  <variable name="siglay" shape="siglay node" type="float">
   <attribute name="standard_name" value="ocean_sigma_coordinate"/>
   <attribute name="positive" value="up"/>
@@ -692,7 +701,8 @@
 
 </dataset>
 <dataset name="SELFE - IKE - Ultralite - Variable Drag - Waves - 2D" ID="in.vims.selfe.ike.ultralite.vardrag.wave.2d" urlPath="auto/in.vims.selfe.ike.ultralite.vardrag.wave.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.vims.selfe.ike.ultralite.vardrag.wave.2d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.vims.selfe.ike.ultralite.vardrag.wave.2d"/>
 <!--Intended to be NCML for use with UGRID extensions per http://bit.ly/ugrid_cf -->
 <!--This file is intended to be testbedapps.sura.org:/data/ftp/upload/Inundation/vims/selfe_tropical/runs/Ike/2D_varied_manning_windstress_with_wave/00_dir.ncml and aggregate its directory for the testbed server into 
 tomcat catalog at /var/www/tomcat/content/thredds/inundation.xml 
@@ -851,7 +861,8 @@ Which should be viewable as http://testbedapps.sura.org/thredds/catalog/inundati
 
 </dataset>
 <dataset name="SELFE - IKE - Ultralite - Variable Drag - Waves - 3D" ID="in.vims.selfe.ike.ultralite.vardrag.wave.3d" urlPath="auto/in.vims.selfe.ike.ultralite.vardrag.wave.3d">
- <serviceName>agg</serviceName>
+  <access serviceName="ncwms_in.vims.selfe.ike.ultralite.vardrag.wave.3d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.vims.selfe.ike.ultralite.vardrag.wave.3d"/>
 <!--Intended to be NCML for use with UGRID extensions per http://bit.ly/ugrid_cf   -->
 <!--This file is intended to be testbedapps.sura.org:/data/ftp/upload/Inundation/vims/selfe_tropical/runs/Ike/3D_varied_roughness_windstress_with_wave/00_dir.ncml and aggregate its directory for the testbed server into 
 tomcat catalog at /var/www/tomcat/content/thredds/inundation.xml 
@@ -999,7 +1010,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="SELFE - IKE - Ultralite - Variable Drag - No Waves - 3D" ID="in.vims.selfe.ike.ultralite.vardrag.nowave.3d" urlPath="auto/in.vims.selfe.ike.ultralite.vardrag.nowave.3d">
- <serviceName>agg</serviceName>
+  <access serviceName="ncwms_in.vims.selfe.ike.ultralite.vardrag.nowave.3d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.vims.selfe.ike.ultralite.vardrag.nowave.3d"/>
 <!--Intended to be NCML for use with UGRID extensions per http://bit.ly/ugrid_cf -->
 <!--This file is intended to be testbedapps.sura.org:/data/ftp/upload/Inundation/vims/selfe_tropical/runs/Ike/3D_varied_roughness_windstress/whole_domain/00_dir.ncml and aggregate its directory for the testbed server into 
 tomcat catalog at /var/www/tomcat/content/thredds/inundation.xml 
@@ -1090,7 +1102,8 @@ Which should be viewable as http://testbedapps.sura.org/thredds/catalog/inundati
 
 </dataset>
 <dataset name="SELFE - IKE - Ultralite - Variable Drag - No Waves - 2D" ID="in.vims.selfe.ike.ultralite.vardrag.nowave.2d" urlPath="auto/in.vims.selfe.ike.ultralite.vardrag.nowave.2d">
- <serviceName>agg</serviceName>
+   <access serviceName="ncwms_in.vims.selfe.ike.ultralite.vardrag.nowave.2d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.vims.selfe.ike.ultralite.vardrag.nowave.2d"/>
 <!--Intended to be NCML for use with UGRID extensions per http://bit.ly/ugrid_cf -->
 <!--This file is intended to be testbedapps.sura.org:/data/ftp/upload/Inundation/vims/selfe_tropical/runs/Ike/2D_varied_manning_windstress/00_dir.ncml and aggregate its directory for the testbed server into 
 tomcat catalog at /var/www/tomcat/content/thredds/inundation.xml 
@@ -1196,7 +1209,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="SELFE - Rita - Ultralite - Variable Drag - Waves - 2D" ID="in.vims.selfe.rita.ultralite.vardrag.wave.2d" urlPath="auto/in.vims.selfe.rita.ultralite.vardrag.wave.2d">
- <serviceName>agg</serviceName>
+   <access serviceName="ncwms_in.vims.selfe.rita.ultralite.vardrag.wave.2d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.vims.selfe.rita.ultralite.vardrag.wave.2d"/>
 <!--Intended to be NCML for use with UGRID extensions per http://bit.ly/ugrid_cf -->
 <!--This file is intended to be testbedapps.sura.org:/data/ftp/upload/Inundation/vims/selfe_tropical/runs/Rita/2D_varied_manning_windstress_with_wave/whole_domain/00_dir.ncml and aggregate its directory for the testbed server
 tomcat catalog at /var/www/tomcat/content/thredds/inundation.xml 
@@ -1357,7 +1371,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="SELFE - Rita - Ultralite - Variable Drag - Waves - 3D" ID="in.vims.selfe.rita.ultralite.vardrag.wave.3d" urlPath="auto/in.vims.selfe.rita.ultralite.vardrag.wave.3d">
- <serviceName>agg</serviceName>
+   <access serviceName="ncwms_in.vims.selfe.rita.ultralite.vardrag.wave.3d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.vims.selfe.rita.ultralite.vardrag.wave.3d"/>
 <!--Intended to be NCML for use with UGRID extensions per http://bit.ly/ugrid_cf -->
 <!--This file is intended to be testbedapps.sura.org:/data/ftp/upload/Inundation/vims/selfe_tropical/runs/Rita/3D_varied_roughness_windstress_with_wave/whole_domain/00_dir.ncml and aggregate its directory for the testbed server tomcat catalog at /var/www/tomcat/content/thredds/inundation.xml 
 Which should be viewable as http://testbedapps.sura.org/thredds/catalog/inundation.html
@@ -1504,7 +1519,8 @@ Which should be viewable as http://testbedapps.sura.org/thredds/catalog/inundati
 
 </dataset>
 <dataset name="SELFE - Rita - Ultralite - Variable Drag - No Waves - 3D" ID="in.vims.selfe.rita.ultralite.vardrag.nowave.3d" urlPath="auto/in.vims.selfe.rita.ultralite.vardrag.nowave.3d">
- <serviceName>agg</serviceName>
+   <access serviceName="ncwms_in.vims.selfe.rita.ultralite.vardrag.nowave.3d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.vims.selfe.rita.ultralite.vardrag.nowave.3d"/>
 <!--Intended to be NCML for use with UGRID extensions per http://bit.ly/ugrid_cf -->
 <!--This file is intended to be testbedapps.sura.org:/data/ftp/upload/Inundation/vims/selfe_tropical/runs/Rita/3D_varied_roughness_windstress/whole_domain/00_dir.ncml and aggregate its directory for the testbed server
 tomcat catalog at /var/www/tomcat/content/thredds/inundation.xml 
@@ -1597,7 +1613,8 @@ Which should be viewable as http://testbedapps.sura.org/thredds/catalog/inundati
 
 </dataset>
 <dataset name="SELFE - Rita - Ultralite - Variable Drag - No Waves - 2D" ID="in.vims.selfe.rita.ultralite.vardrag.nowave.2d" urlPath="auto/in.vims.selfe.rita.ultralite.vardrag.nowave.2d">
- <serviceName>agg</serviceName>
+   <access serviceName="ncwms_in.vims.selfe.rita.ultralite.vardrag.nowave.2d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.vims.selfe.rita.ultralite.vardrag.nowave.2d"/>
 <!--Intended to be NCML for use with UGRID extensions per http://bit.ly/ugrid_cf -->
 <!--This file is intended to be testbedapps.sura.org:/data/ftp/upload/Inundation/vims/selfe_tropical/runs/Rita/2D_varied_manning_windstress/00_dir.ncml and aggregate its directory for the testbed server
 tomcat catalog at /var/www/tomcat/content/thredds/inundation.xml 
@@ -1696,9 +1713,9 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
       </netcdf>
  </aggregation>
 <attribute name="id" value="in.vims.selfe.rita.ultralite.vardrag.nowave.2d"/><attribute name="cdm_data_type" value="any"/></netcdf>
-
-
 </dataset>
+
+<!--ADCIRC IKE AND RITA-->
 <dataset name="ADCIRC - IKE - Ultralite_LR - Variable Drag - Waves - 2D" ID="in.und.adcirc.ike.ultralite.lr.vardrag.wave.2d" urlPath="auto/in.und.adcirc.ike.ultralite.lr.vardrag.wave.2d">
  <access serviceName="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.wave.2d" urlPath=""/>
  <access serviceName="agg" urlPath="auto/in.und.adcirc.ike.ultralite.lr.vardrag.wave.2d"/>
