@@ -61,6 +61,11 @@
 <service name="ncwms_in.uf.slosh.ike.galveston.owi_wind.wave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_owi_wind_wave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_ike_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.uf.slosh.ike.galveston.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.slosh.rita.egm3.t.owi" base="http://wms.testbed.sura.org/wms/in_und_slosh_rita_egm3_t_owi/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.slosh.rita.ebp3.t.owi" base="http://wms.testbed.sura.org/wms/in_und_slosh_rita_ebp3_t_owi/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.slosh.ike.egm3.t.owi" base="http://wms.testbed.sura.org/wms/in_und_slosh_ike_egm3_t_owi/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.slosh.ike.egl3.t.owi" base="http://wms.testbed.sura.org/wms/in_und_slosh_ike_egl3_t_owi/" serviceType="WMS" suffix="" />
+
 
 
 
@@ -1814,7 +1819,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 </dataset>
 -->
 <dataset name="SLOSH - IKE - egl3 - t - OWI" ID="in.und.slosh.ike.egl3.t.owi" urlPath="auto/in.und.slosh.ike.egl3.t.owi">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.und.slosh.ike.egl3.t.owi" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.und.slosh.ike.egl3.t.owi"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <attribute name="Source" value="SLOSH"/>
@@ -1837,7 +1843,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 </dataset>-->
 
 <dataset name="SLOSH - IKE - egm3 - t- OWI" ID="in.und.slosh.ike.egm3.t.owi" urlPath="auto/in.und.slosh.ike.egm3.t.owi">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.und.slosh.ike.egm3.t.owi" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.und.slosh.ike.egm3.t.owi"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <attribute name="Source" value="SLOSH"/>
@@ -1861,7 +1868,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>-->
 <dataset name="SLOSH - RITA - ebp3 - t - OWI" ID="in.und.slosh.rita.ebp3.t.owi" urlPath="auto/in.und.slosh.rita.ebp3.t.owi">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.und.slosh.rita.ebp3.t.owi" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.und.slosh.rita.ebp3.t.owi"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <attribute name="Source" value="SLOSH"/>
@@ -1886,7 +1894,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>-->
 <dataset name="SLOSH - RITA - egm3 - t - OWI" ID="in.und.slosh.rita.egm3.t.owi" urlPath="auto/in.und.slosh.rita.egm3.t.owi">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.und.slosh.rita.egm3.t.owi" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.und.slosh.rita.egm3.t.owi"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <attribute name="Source" value="SLOSH"/>
