@@ -60,8 +60,13 @@
          </filter>
           <addDatasetSize/>
        </datasetScan>
+
+<service name="ncwms_in.uf.slosh.ike.galveston.owi_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_owi_wind_nowave_2d/" serviceType="WMS" suffix="" />
+<!--<access serviceName="ncwms_in.uf.slosh.ike.galveston.owi_wind.nowave.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.uf.slosh.ike.galveston.owi_wind.nowave.2d"/>-->
 <dataset name="SLOSH - IKE - Galveston - OWI Wind - No waves - 2D" ID="in.uf.slosh.ike.galveston.owi_wind.nowave.2d" urlPath="auto/in.uf.slosh.ike.galveston.owi_wind.nowave.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.uf.slosh.ike.galveston.owi_wind.nowave.2d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.uf.slosh.ike.galveston.owi_wind.nowave.2d"/>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/ftp/upload/Inundation/uf/OWI_1.09_Ike_Galveston/Case_01/slosh-spatial-netcdf.nc">
      <attribute name="wms-link" value="http://testbedapps.sura.org/ncWMS/wms"/>
      <attribute name="wms-layer-prefix" value="slosh_ike_galveston_owi_wind_only"/>
@@ -76,10 +81,12 @@
      <remove type="attribute" name="program"/>
       <attribute name="institution" value="UF - University of Florida, Inundation"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="etamax"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
-
 </dataset>
+
+<service name="ncwms_in.uf.slosh.ike.galveston.owi_wind.wave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_owi_wind_wave_2d/" serviceType="WMS" suffix="" />
 <dataset name="SLOSH - IKE - Galveston - OWI Wind - Waves - 2D" ID="in.uf.slosh.ike.galveston.owi_wind.wave.2d" urlPath="auto/in.uf.slosh.ike.galveston.owi_wind.wave.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.uf.slosh.ike.galveston.owi_wind.wave.2d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.uf.slosh.ike.galveston.owi_wind.wave.2d"/> 
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/ftp/upload/Inundation/uf/OWI_1.09_Ike_Galveston/Case_01/slosh-spatial-netcdf.nc">
      <attribute name="wms-link" value="http://testbedapps.sura.org/ncWMS/wms"/>
      <attribute name="wms-layer-prefix" value="slosh_ike_galveston_owi_wind_only"/>
@@ -94,10 +101,12 @@
      <remove type="attribute" name="program"/>
       <attribute name="institution" value="UF - University of Florida, Inundation"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="etamax"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
-
 </dataset>
+
+<service name="ncwms_in.uf.slosh.ike.galveston.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
 <dataset name="SLOSH - IKE - Galveston - Slosh Wind - No Waves - 2D" ID="in.uf.slosh.ike.galveston.slosh_wind.nowave.2d" urlPath="auto/in.uf.slosh.ike.galveston.slosh_wind.nowave.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.uf.slosh.ike.galveston.slosh_wind.nowave.2d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.uf.slosh.ike.galveston.slosh_wind.nowave.2d"/> 
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/ftp/upload/Inundation/uf/OWI_1.09_Ike_Galveston/Case_03/slosh-spatial-netcdf.nc">
      <attribute name="wms-link" value="http://testbedapps.sura.org/ncWMS/wms"/>
      <attribute name="wms-layer-prefix" value="slosh_ike_galveston_owi_wind_wave_mf"/>
@@ -113,16 +122,20 @@
       
     <attribute name="institution" value="UF - University of Florida, Inundation"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="etamax"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
-
 </dataset>
+
+<service name="ncwms_in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_ike_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
 <dataset name="SLOSH - IKE - Gulf of Mexico - Slosh Wind - No Waves - 2D" ID="in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d" urlPath="auto/in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d"/> 
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/ftp/upload/Inundation/MDL/Ike/ike_gom.spatial.nc"><attribute name="title" value="SLOSH - IKE - Gulf of Mexico - Slosh Wind - No Waves - 2D"/><attribute name="id" value="in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d"/><attribute name="institution" value="MDL - NOAA/NWS/MDL, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="etamax"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
-
 </dataset>
+
+<service name="ncwms_in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_rita_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
 <dataset name="SLOSH - RITA - Gulf of Mexico - Slosh Wind - No Waves - 2D" ID="in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d" urlPath="auto/in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d" urlPath=""/>
+ <access serviceName="agg" urlPath="auto/in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d"/> 
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/ftp/upload/Inundation/MDL/Rita/Rita_gom.spatial.nc"><attribute name="title" value="SLOSH - RITA - Gulf of Mexico - Slosh Wind - No Waves - 2D"/><attribute name="id" value="in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d"/><attribute name="institution" value="MDL - NOAA/NWS/MDL, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="etamax"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
 
@@ -1884,7 +1897,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 <attribute name="title" value="SLOSH - IKE - egl3 -&#xA0;SWI"/><attribute name="id" value="in.und.slosh.ike.egl3.swi"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="z"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="etamax"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
 
-</dataset>-->
+</dataset>--><!--
 <dataset name="SLOSH - IKE - egl3 - OWI" ID="in.und.slosh.ike.egl3.owi" urlPath="auto/in.und.slosh.ike.egl3.owi">
  <serviceName>agg</serviceName>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
@@ -1896,7 +1909,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 <attribute name="title" value="SLOSH - IKE - egl3 -&#xA0;OWI"/><attribute name="id" value="in.und.slosh.ike.egl3.owi"/><attribute name="institution" value="UND - University of Notre Dame, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
 
-</dataset><!--
+</dataset>--><!--
 <dataset name="SLOSH - IKE - emg3 - SWI" ID="in.und.slosh.ike.egm3.swi" urlPath="auto/in.und.slosh.ike.egm3.swi">
  <serviceName>agg</serviceName>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
