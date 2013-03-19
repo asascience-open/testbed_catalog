@@ -34,6 +34,7 @@
   <service name="sos" serviceType="SOS" base="/thredds/sos/"/>
  </service>
  
+<!--WMS SERVICE ENDPOINTS MUST BE DEFINED ALL UP HERE-->
 <!--FVCOM-->
 <service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.nowave.2d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_ike_ultralite_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.wave.2d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_ike_ultralite_vardrag_wave_2d/" serviceType="WMS" suffix="" />
@@ -56,10 +57,10 @@
 
 <!--SLOSH-->
 <service name="ncwms_in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_rita_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_rita_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.uf.slosh.ike.galveston.owi_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_owi_wind_nowave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.uf.slosh.ike.galveston.owi_wind.wave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_owi_wind_wave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_ike_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.uf.slosh.ike.galveston.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
 
 
 
