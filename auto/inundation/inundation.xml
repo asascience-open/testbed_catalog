@@ -34,7 +34,7 @@
   <service name="sos" serviceType="SOS" base="/thredds/sos/"/>
  </service>
  
-
+<!--FVCOM-->
 <service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.nowave.2d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_ike_ultralite_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.wave.2d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_ike_ultralite_vardrag_wave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.usf.fvcom.ike.ultralite.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_ike_ultralite_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
@@ -43,6 +43,8 @@
 <service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.wave.2d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_rita_ultralite_vardrag_wave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_rita_ultralite_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.wave.3d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_rita_ultralite_vardrag_wave_3d/" serviceType="WMS" suffix="" />
+
+<!--ADCIRC-->
 <service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.wave.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_ike_ultralite_lr_vardrag_wave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.wave.3d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_ike_ultralite_lr_vardrag_wave_3d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.nowave.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_ike_ultralite_lr_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
@@ -51,6 +53,15 @@
 <service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.wave.3d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_rita_ultralite_lr_vardrag_wave_3d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.nowave.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_rita_ultralite_lr_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_rita_ultralite_lr_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
+
+<!--SLOSH-->
+<service name="ncwms_in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_rita_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_rita_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.uf.slosh.ike.galveston.owi_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_owi_wind_nowave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.uf.slosh.ike.galveston.owi_wind.wave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_owi_wind_wave_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_ike_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
+
+
 
 <dataset name="Inundation">
        <datasetScan name="Inundation Observations" path="inundation/observations" location="/data/ftp/upload/Inundation/observations/tropical/netcdf">
@@ -61,7 +72,7 @@
           <addDatasetSize/>
        </datasetScan>
 
-<service name="ncwms_in.uf.slosh.ike.galveston.owi_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_owi_wind_nowave_2d/" serviceType="WMS" suffix="" />
+
 <!--<access serviceName="ncwms_in.uf.slosh.ike.galveston.owi_wind.nowave.2d" urlPath=""/>
 <access serviceName="agg" urlPath="auto/in.uf.slosh.ike.galveston.owi_wind.nowave.2d"/>-->
 <dataset name="SLOSH - IKE - Galveston - OWI Wind - No waves - 2D" ID="in.uf.slosh.ike.galveston.owi_wind.nowave.2d" urlPath="auto/in.uf.slosh.ike.galveston.owi_wind.nowave.2d">
@@ -83,7 +94,7 @@
 
 </dataset>
 
-<service name="ncwms_in.uf.slosh.ike.galveston.owi_wind.wave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_owi_wind_wave_2d/" serviceType="WMS" suffix="" />
+
 <dataset name="SLOSH - IKE - Galveston - OWI Wind - Waves - 2D" ID="in.uf.slosh.ike.galveston.owi_wind.wave.2d" urlPath="auto/in.uf.slosh.ike.galveston.owi_wind.wave.2d">
  <access serviceName="ncwms_in.uf.slosh.ike.galveston.owi_wind.wave.2d" urlPath=""/>
  <access serviceName="agg" urlPath="auto/in.uf.slosh.ike.galveston.owi_wind.wave.2d"/> 
@@ -103,7 +114,7 @@
 
 </dataset>
 
-<service name="ncwms_in.uf.slosh.ike.galveston.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_uf_slosh_ike_galveston_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
+
 <dataset name="SLOSH - IKE - Galveston - Slosh Wind - No Waves - 2D" ID="in.uf.slosh.ike.galveston.slosh_wind.nowave.2d" urlPath="auto/in.uf.slosh.ike.galveston.slosh_wind.nowave.2d">
  <access serviceName="ncwms_in.uf.slosh.ike.galveston.slosh_wind.nowave.2d" urlPath=""/>
  <access serviceName="agg" urlPath="auto/in.uf.slosh.ike.galveston.slosh_wind.nowave.2d"/> 
@@ -124,7 +135,7 @@
 
 </dataset>
 
-<service name="ncwms_in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_ike_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
+
 <dataset name="SLOSH - IKE - Gulf of Mexico - Slosh Wind - No Waves - 2D" ID="in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d" urlPath="auto/in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d">
  <access serviceName="ncwms_in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d" urlPath=""/>
  <access serviceName="agg" urlPath="auto/in.mdl.slosh.ike.gulf_of_mexico.slosh_wind.nowave.2d"/> 
@@ -132,14 +143,14 @@
 
 </dataset>
 
-<service name="ncwms_in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_rita_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
+
 <dataset name="SLOSH - RITA - Gulf of Mexico - Slosh Wind - No Waves - 2D" ID="in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d" urlPath="auto/in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d">
  <access serviceName="ncwms_in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d" urlPath=""/>
  <access serviceName="agg" urlPath="auto/in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d"/> 
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/data/ftp/upload/Inundation/MDL/Rita/Rita_gom.spatial.nc"><attribute name="title" value="SLOSH - RITA - Gulf of Mexico - Slosh Wind - No Waves - 2D"/><attribute name="id" value="in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d"/><attribute name="institution" value="MDL - NOAA/NWS/MDL, Inundation"/><attribute name="cdm_data_type" value="grid"/><variable name="eta"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="etamax"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="u"><attribute name="coverage_content_type" value="modelResult"/></variable><variable name="v"><attribute name="coverage_content_type" value="modelResult"/></variable></netcdf>
 
-
 </dataset>
+
 <dataset name="FVCOM - IKE - Ultralite - Variable Drag - No Waves - 2D" ID="in.usf.fvcom.ike.ultralite.vardrag.nowave.2d" urlPath="auto/in.usf.fvcom.ike.ultralite.vardrag.nowave.2d">
  <access serviceName="ncwms_in.usf.fvcom.ike.ultralite.vardrag.nowave.2d" urlPath=""/>
  <access serviceName="agg" urlPath="auto/in.usf.fvcom.ike.ultralite.vardrag.nowave.2d"/>
