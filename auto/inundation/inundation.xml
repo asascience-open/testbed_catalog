@@ -62,12 +62,11 @@
 <service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_rita_ultralite_lr_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
 
 <service name="ncwms_in.und.adcirc.2007.wavesonly.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2007_wavesonly_2d/" serviceType="WMS" suffix="" />
-<service name="ncwms_in.und.adcirc.2007.withwaves_2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2007_withwaves_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.2007.withwaves.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2007_withwaves_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.und.adcirc.2007.nowaves.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2007_nowaves_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.und.adcirc.2005.wavesonly.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2005_wavesonly_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.und.adcirc.2005.withwaves.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2005_withwaves_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.und.adcirc.2005.nowaves.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2005_nowaves_2d/" serviceType="WMS" suffix="" />
-
 
 <!--SLOSH-->
 <service name="ncwms_in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_rita_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
