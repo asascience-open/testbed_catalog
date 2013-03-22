@@ -45,6 +45,12 @@
 <service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_rita_ultralite_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.usf.fvcom.rita.ultralite.vardrag.wave.3d" base="http://wms.testbed.sura.org/wms/in_usf_fvcom_rita_ultralite_vardrag_wave_3d/" serviceType="WMS" suffix="" />
 
+<service name="ncwms_in.umass.fvcom.2007.waves" base="http://wms.testbed.sura.org/wms/in_umass_fvcom_2007_waves/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.umass.fvcom.2007.nowaves.3d" base="http://wms.testbed.sura.org/wms/in_umass_fvcom_2007_nowaves_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.umass.fvcom.2005.withwave.3d" base="http://wms.testbed.sura.org/wms/in_umass_fvcom_2005_withwave_3d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.umass.fvcom.2005.wave" base="http://wms.testbed.sura.org/wms/in_umass_fvcom_2005_wave/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.umass.fvcom.2005.nowaves.3d" base="http://wms.testbed.sura.org/wms/in_umass_fvcom_2005_nowaves_3d/" serviceType="WMS" suffix="" />
+
 <!--ADCIRC-->
 <service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.wave.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_ike_ultralite_lr_vardrag_wave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.und.adcirc.ike.ultralite.lr.vardrag.wave.3d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_ike_ultralite_lr_vardrag_wave_3d/" serviceType="WMS" suffix="" />
@@ -54,6 +60,14 @@
 <service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.wave.3d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_rita_ultralite_lr_vardrag_wave_3d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.nowave.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_rita_ultralite_lr_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.und.adcirc.rita.ultralite.lr.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_rita_ultralite_lr_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
+
+<service name="ncwms_in.und.adcirc.2007.wavesonly.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2007_wavesonly_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.2007.withwaves_2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2007_withwaves_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.2007.nowaves.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2007_nowaves_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.2005.wavesonly.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2005_wavesonly_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.2005.withwaves.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2005_withwaves_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.und.adcirc.2005.nowaves.2d" base="http://wms.testbed.sura.org/wms/in_und_adcirc_2005_nowaves_2d/" serviceType="WMS" suffix="" />
+
 
 <!--SLOSH-->
 <service name="ncwms_in.mdl.slosh.rita.gulf_of_mexico.slosh_wind.nowave.2d" base="http://wms.testbed.sura.org/wms/in_mdl_slosh_rita_gulf_of_mexico_slosh_wind_nowave_2d/" serviceType="WMS" suffix="" />
@@ -76,6 +90,13 @@
 <service name="ncwms_in.vims.selfe.rita.ultralite.vardrag.nowave.3d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_rita_ultralite_vardrag_nowave_3d/" serviceType="WMS" suffix="" />
 <service name="ncwms_in.vims.selfe.rita.ultralite.vardrag.nowave.2d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_rita_ultralite_vardrag_nowave_2d/" serviceType="WMS" suffix="" />
 
+<service name="ncwms_in.vims.selfe.2010.tidesonly.2d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_2010_tidesonly_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.2007.wavesonly.2d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_2007_wavesonly_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.2007.waves.2d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_2007_waves_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.2007.nowaves.2d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_2007_nowaves_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.2005.wavesonly.2d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_2005_wavesonly_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.2005.waves.2d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_2005_waves_2d/" serviceType="WMS" suffix="" />
+<service name="ncwms_in.vims.selfe.2005.nowaves.2d" base="http://wms.testbed.sura.org/wms/in_vims_selfe_2005_nowaves_2d/" serviceType="WMS" suffix="" />
 
 
 <dataset name="Inundation">
@@ -1964,7 +1985,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 </dataset>-->
 
 <dataset name="FVCOM - 2005 - No Waves - 3D" ID="in.umass.fvcom.2005.nowaves.3d" urlPath="auto/in.umass.fvcom.2005.nowaves.3d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.umass.fvcom.2005.nowaves.3d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.umass.fvcom.2005.nowaves.3d"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd" location="/data/ftp/upload/Inundation/umass/fvcom_extratropical/runs/2005_fine_grid1/current/output/sci_hot_curr_0001.nc">
  <variable name="siglay" shape="siglay node" type="float">
   <attribute name="standard_name" value="ocean_sigma_coordinate"/>
@@ -2029,7 +2051,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="FVCOM - 2005 - Waves" ID="in.umass.fvcom.2005.wave" urlPath="auto/in.umass.fvcom.2005.wave">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.umass.fvcom.2005.wave" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.umass.fvcom.2005.wave"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd" location="/data/ftp/upload/Inundation/umass/fvcom_extratropical/runs/2005_fine_grid1/wave/output/sci_hot_wave_0001.nc">
  <variable name="siglay" shape="siglay node" type="float">
   <attribute name="standard_name" value="ocean_sigma_coordinate"/>
@@ -2094,7 +2117,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="FVCOM - 2005 - With Waves - 3D" ID="in.umass.fvcom.2005.withwave.3d" urlPath="auto/in.umass.fvcom.2005.withwave.3d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.umass.fvcom.2005.withwave.3d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.umass.fvcom.2005.withwave.3d"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd" location="/data/ftp/upload/Inundation/umass/fvcom_extratropical/runs/2005_fine_grid1/wave_current/output/sci_hot_wavecurr_0001.nc">
  <variable name="siglay" shape="siglay node" type="float">
   <attribute name="standard_name" value="ocean_sigma_coordinate"/>
@@ -2159,7 +2183,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="FVCOM - 2007 - No Waves - 3D" ID="in.umass.fvcom.2007.nowaves.3d" urlPath="auto/in.umass.fvcom.2007.nowaves.3d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.umass.fvcom.2007.nowaves.3ds" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.umass.fvcom.2007.nowaves.3d"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd" location="/data/ftp/upload/Inundation/umass/fvcom_extratropical/runs/2007_fine_grid1/current/output/sci_hot_curr_0001.nc">
  <variable name="siglay" shape="siglay node" type="float">
   <attribute name="standard_name" value="ocean_sigma_coordinate"/>
@@ -2224,7 +2249,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="FVCOM - 2007 - Waves" ID="in.umass.fvcom.2007.waves" urlPath="auto/in.umass.fvcom.2007.waves">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.umass.fvcom.2007.waves" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.umass.fvcom.2007.waves"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd" location="/data/ftp/upload/Inundation/umass/fvcom_extratropical/runs/2007_fine_grid1/wave/output/sci_hot_wave_0001.nc">
  <variable name="siglay" shape="siglay node" type="float">
   <attribute name="standard_name" value="ocean_sigma_coordinate"/>
@@ -2289,7 +2315,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="ADCIRC - 2005 - No Waves - 2D" ID="in.und.adcirc.2005.nowaves.2d" urlPath="auto/in.und.adcirc.2005.nowaves.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.und.adcirc.2005.nowaves.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.und.adcirc.2005.nowaves.2d"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <aggregation type="union">
@@ -2300,7 +2327,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="ADCIRC SWAN - 2005 - With Waves - 2D" ID="in.und.adcirc.2005.withwaves.2d" urlPath="auto/in.und.adcirc.2005.withwaves.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.und.adcirc.2005.withwaves.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.und.adcirc.2005.withwaves.2d"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <aggregation type="union">
@@ -2311,7 +2339,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="SWAN - 2005 - Waves Only - 2D" ID="in.und.adcirc.2005.wavesonly.2d" urlPath="auto/in.und.adcirc.2005.wavesonly.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.und.adcirc.2005.wavesonly.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.und.adcirc.2005.wavesonly.2d"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <aggregation type="union">
@@ -2322,7 +2351,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="ADCIRC - 2007 - No Waves - 2D" ID="in.und.adcirc.2007.nowaves.2d" urlPath="auto/in.und.adcirc.2007.nowaves.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.und.adcirc.2007.nowaves.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.und.adcirc.2007.nowaves.2d"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <aggregation type="union">
@@ -2333,7 +2363,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="ADCIRC SWAN - 2007 - With Waves - 2D" ID="in.und.adcirc.2007.withwaves.2d" urlPath="auto/in.und.adcirc.2007.withwaves.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.und.adcirc.2007.withwaves.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.und.adcirc.2007.withwaves.2d"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <aggregation type="union">
@@ -2344,7 +2375,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="SWAN - 2007 - Waves Only - 2D" ID="in.und.adcirc.2007.wavesonly.2d" urlPath="auto/in.und.adcirc.2007.wavesonly.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.und.adcirc.2007.wavesonly.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.und.adcirc.2007.wavesonly.2d"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd">
  <attribute name="Conventions" value="CF-1.0"/>
  <aggregation type="union">
@@ -2355,7 +2387,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="SELFE - 2005 - No Waves - 2D" ID="in.vims.selfe.2005.nowaves.2d" urlPath="auto/in.vims.selfe.2005.nowaves.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.vims.selfe.2005.nowaves.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.vims.selfe.2005.nowaves.2d"/>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
      <attribute name="institution" type="string" value="VIMS - Virginia Institute of Marine Science, Inundation"/>
      <attribute name="history" type="string" value="ncml aggregation of .../whole_domain/ datafiles"/>
@@ -2438,7 +2471,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="SELFE - 2005 - Waves - 2D" ID="in.vims.selfe.2005.waves.2d" urlPath="auto/in.vims.selfe.2005.waves.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.vims.selfe.2005.waves.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.vims.selfe.2005.waves.2d"/>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
      <attribute name="institution" type="string" value="VIMS - Virginia Institute of Marine Science, Inundation"/>
      <attribute name="history" type="string" value="ncml aggregation of .../whole_domain/ datafiles"/>
@@ -2580,7 +2614,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="SELFE - 2005 - Waves Only - 2D" ID="in.vims.selfe.2005.wavesonly.2d" urlPath="auto/in.vims.selfe.2005.wavesonly.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.vims.selfe.2005.wavesonly.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.vims.selfe.2005.wavesonly.2d"/>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
      <attribute name="institution" type="string" value="VIMS - Virginia Institute of Marine Science, Inundation"/>
      <attribute name="history" type="string" value="ncml aggregation of .../whole_domain/ datafiles"/>
@@ -2705,7 +2740,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="SELFE - 2007 - No Waves - 2D" ID="in.vims.selfe.2007.nowaves.2d" urlPath="auto/in.vims.selfe.2007.nowaves.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.vims.selfe.2007.nowaves.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.vims.selfe.2007.nowaves.2d"/>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
      <attribute name="institution" type="string" value="VIMS - Virginia Institute of Marine Science, Inundation"/>
      <attribute name="history" type="string" value="ncml aggregation of .../whole_domain/ datafiles"/>
@@ -2788,7 +2824,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="SELFE - 2007 - Waves - 2D" ID="in.vims.selfe.2007.waves.2d" urlPath="auto/in.vims.selfe.2007.waves.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.vims.selfe.2007.waves.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.vims.selfe.2007.waves.2d"/>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
      <attribute name="institution" type="string" value="VIMS - Virginia Institute of Marine Science, Inundation"/>
      <attribute name="history" type="string" value="ncml aggregation of .../whole_domain/ datafiles"/>
@@ -2930,7 +2967,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="SELFE - 2007 - Waves Only - 2D" ID="in.vims.selfe.2007.wavesonly.2d" urlPath="auto/in.vims.selfe.2007.wavesonly.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.vims.selfe.2007.wavesonly.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.vims.selfe.2007.wavesonly.2d"/>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
      <attribute name="institution" type="string" value="VIMS - Virginia Institute of Marine Science, Inundation"/>
      <attribute name="history" type="string" value="ncml aggregation of .../whole_domain/ datafiles"/>
@@ -3055,7 +3093,8 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="SELFE - 2010 - Tides Only - 2D" ID="in.vims.selfe.2010.tidesonly.2d" urlPath="auto/in.vims.selfe.2010.tidesonly.2d">
- <serviceName>agg</serviceName>
+ <access serviceName="ncwms_in.vims.selfe.2010.tidesonly.2d" urlPath=""/>
+<access serviceName="agg" urlPath="auto/in.vims.selfe.2010.tidesonly.2d"/>
 <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
      <attribute name="institution" type="string" value="VIMS - Virginia Institute of Marine Science, Inundation"/>
      <attribute name="history" type="string" value="ncml aggregation of .../whole_domain/ datafiles"/>
@@ -3140,7 +3179,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 <!-- inundation catalog footer-->
 
 </dataset>
-
+<!--
 <dataset name="Observations">
  <datasetScan name="NOAA NOS" path="inundation/observations/noaa_nos"
   location="/data/ftp/upload/Inundation/observations/tropical/netcdf/Ike/NOAA/">
@@ -3151,7 +3190,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
   <addDatasetSize/>
  </datasetScan>
 </dataset>
-
+-->
 <!--<dataset name="Inundation Observation NCML Test Dataset" ID="vimsselfe-obsncml"
  urlPath="inundation/observations/vims-obs.nc">
  <serviceName>all</serviceName>
