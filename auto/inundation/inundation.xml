@@ -295,13 +295,13 @@
   <attribute name="positive" value="up"/>
   <attribute name="formula_terms" value="sigma: siglay eta: zeta depth: h"/>
  </variable>
- <variable name="h" orgName="depth" shape="node" type="float">
+ <!--<variable name="h" orgName="depth" shape="node" type="float">
   <attribute name="mesh" value="fvcom_mesh"/>
   <attribute name="coordinates" value="lat lon"/>
   <attribute name="location" value="node"/>
   <remove type="attribute" name="positive"/>
   <remove type="attribute" name="grid"/>
- </variable>
+ </variable>-->
  <variable name="nv">
   <attribute name="standard_name" value="face_node_connectivity"/>
   <attribute name="start_index" type="int" value="1"/>
