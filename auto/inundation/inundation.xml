@@ -2183,7 +2183,7 @@ http://testbedapps-dev.sura.org/thredds/catalog/alldata/Inundation/vims/selfe_tr
 
 </dataset>
 <dataset name="FVCOM - 2007 - No Waves - 3D" ID="in.umass.fvcom.2007.nowaves.3d" urlPath="auto/in.umass.fvcom.2007.nowaves.3d">
- <access serviceName="ncwms_in.umass.fvcom.2007.nowaves.3ds" urlPath=""/>
+ <access serviceName="ncwms_in.umass.fvcom.2007.nowaves.3d" urlPath=""/>
 <access serviceName="agg" urlPath="auto/in.umass.fvcom.2007.nowaves.3d"/>
 <netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2 http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.3.xsd" location="/data/ftp/upload/Inundation/umass/fvcom_extratropical/runs/2007_fine_grid1/current/output/sci_hot_curr_0001.nc">
  <variable name="siglay" shape="siglay node" type="float">
